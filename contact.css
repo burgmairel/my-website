@@ -1,0 +1,106 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: -100;
+}
+.bg {
+    /* The image used */
+    background-image: url("images/startseite/oben.jpg");
+
+    /* Full height */
+    height: 110%;
+    width: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.portrait {
+    max-width: 100%;
+    min-width: 500px;
+    margin-right: 30px;
+    border-radius: 20px;
+    padding: 10px;
+    flex-basis: 40%;
+    margin-bottom: 50px;
+}
+.back_home {
+    text-align: right;
+    margin-top: -20px;
+    margin-right: 60px;
+    padding-top: 60px;
+}
+.back_home a {
+    color: #73736a;
+    font-size: 30px;
+    font-family: "Quicksand", sans-serif;
+    text-decoration: none;
+}
+
+/*typographie*/
+
+h1 {
+    font-family: "Noto Sans JP", sans-serif;
+    color: black;
+    font-size: 90px;
+}
+.about_text {
+    font-family: "Noto Sans JP", sans-serif;
+    color: black;
+    font-size: 19px;
+    float: left;
+    max-width: 500px;
+    min-width: 500px;
+}
+.contact_daten {
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    margin-top: 60px;
+}
+.contact_ue {
+    font-family: "Raleway", sans-serif;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img {
+    max-width: 500px;
+    border-radius: 10px;
+}
+.image {
+    flex-basis: 40%;
+}
+.text {
+    font-size: 20px;
+    padding-left: 20px;
+}
+.sm_link {
+    font-family: "Raleway", sans-serif;
+    font-size: 19px;
+}
+
+.sm_link a {
+    color: black;
+    text-decoration: none;
+}
+.sm_link a:hover {
+    color: royalblue;
+    text-decoration: none;
+}
+
+.try {
+    margin-top: -300px;
+    margin-left: -90px;
+    width: 50%;
+}
+
