@@ -1,0 +1,178 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color:#101639;
+}
+
+.bg {
+        /* The image used */
+    /*background-image: url("images/port/blubi.jpg");
+
+     /* Full height */
+    height: 300%;
+    width: 100%;
+
+    /* Center and scale the image nicely */
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.logo_img {
+  width:6%;
+  position:fixed;
+  left:40px;
+  top:40px;
+}
+
+.box_orange {
+  background-color:white;
+  width: 490px;
+  float:right;
+  margin-top: 50px;
+margin-right: -500px;
+  color: transparent;
+  font-size: 2px;
+  opacity: 30%;
+ 
+ 
+}
+
+.nav_container {
+  margin-right: 50px;
+  width: auto;
+    float: right;
+}
+
+/* The navbar */
+.topnav {
+  overflow: hidden;
+  text-align: right;
+    
+}
+
+/* Navbar links */
+.topnav a {
+  float: right;
+  padding: 15px;
+  color: white; 
+  margin-top: 60px;
+  margin-bottom: 60px;
+  font-size: 17px;
+  text-decoration: none;
+  font-family: 'Noto Sans JP', sans-serif;
+ 
+}
+
+.topnav a:hover {
+  color: lightgray;
+}
+
+.nav_abstand_rand {
+  margin-right: 80px;
+}
+
+
+
+
+.back_home {
+    text-align: right;
+    margin-top: -20px;
+    margin-right: 200px;
+    padding-top: 60px;
+    
+}
+.back_home a {
+    color:darkgray;
+    font-size:30px;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+    position:fixed;
+    margin-top: -20px;
+    padding-top: 60px;
+}
+
+.text{
+    font-size: 90px;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: white;
+    float: right;
+    margin-right: 90px;
+    margin-left: 1000px;
+    margin-top: 90px;
+    
+}
+
+
+.img_port {
+   width:600px;
+   
+}
+
+
+
+
+/* [1] The container */
+.img-hover-zoom {
+    width: 600px;
+    height: 600px;/* [1.1] Set it as per your need */
+    overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+    border-radius: 50%;
+    float:left;
+    margin-left: 500px;
+    margin-top: 30px;
+}
+
+/* [2] Transition property for smooth transformation of images */
+.img-hover-zoom img {
+    transition: transform .5s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.img-hover-zoom:hover img {
+    transform: scale(1.5);
+}
+
+/* [1] The container */
+.img-hover-zoom02 {
+    width: 600px;
+    height: 600px;/* [1.1] Set it as per your need */
+    overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+    border-radius: 50%;
+    float:left;
+    margin-left: 300px;
+    margin-top: 30px;
+}
+
+/* [2] Transition property for smooth transformation of images */
+.img-hover-zoom02 img {
+    transition: transform .5s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.img-hover-zoom02:hover img {
+    transform: scale(0.5);
+
+}
+/* [1] The container */
+.img-hover-zoom03 {
+    width: 600px;
+    height: 600px;/* [1.1] Set it as per your need */
+    overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+    border-radius: 50%;
+    float:left;
+    margin-left: 600px;
+    margin-top: 30px;
+}
+
+/* [2] Transition property for smooth transformation of images */
+.img-hover-zoom03 img {
+    transition: transform .5s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.img-hover-zoom03:hover img {
+    transform: scale(0.5);
+
+}
