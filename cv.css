@@ -114,8 +114,8 @@ body {
                 font-family: raleway;
                 font-size: 25px;
                 padding-left: 20px;
-                margin-bottom: 10px;
-                width: 900px;
+                margin-bottom: 60px;
+                width: 1000px;
                 margin-left: 200px;
             }
             
@@ -127,8 +127,9 @@ body {
                 padding-left: 20px;
                 margin-bottom: 10px;
                 margin-left: 200px;
-                width: 900px;
-                background-color: white;
+                width: 1000px; 
+                background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,0.7) 19%, rgba(255,255,255,0.7) 100%);
             }
            
             
@@ -161,7 +162,7 @@ table, th, td {
 .space {
                font-family: raleway;
                 font-size: 15px;
-                color: white;
+                color: transparent;
 
 }
 
