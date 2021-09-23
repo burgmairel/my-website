@@ -269,7 +269,7 @@ background: linear-gradient(0deg, rgba(168,205,200,1) 19%, rgba(0,0,0,0) 100%);
 }
 
 .flip-card-back {
-  background-color: #2980b9;
+  
   color: white;
   transform: rotateY(180deg);
   
@@ -282,8 +282,14 @@ background: linear-gradient(0deg, rgba(168,205,200,1) 19%, rgba(0,0,0,0) 100%);
     color: black;
 }
 
+.kugel {
+    width: 190%;
+    margin-top: -150px;
+    border-radius: 25px;
+}
 .bild {
     width: 100%;
     margin-top: -150px;
+    margin-left: 80px;
     border-radius: 25px;
 }
