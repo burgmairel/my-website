@@ -193,8 +193,8 @@ hr.new1 {
 .footer-box{
     height: 1700px;
     margin-top: -1300px;
-    background: rgb(113,152,136);
-    background: linear-gradient(0deg, rgba(2,0,36) 12%, rgba(113,120,152,0) 57%);
+background: rgb(168,205,200);
+background: linear-gradient(0deg, rgba(168,205,200,1) 19%, rgba(0,0,0,0) 100%);
 }
 .footer_text {
     font-size: 23px;

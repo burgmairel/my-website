@@ -18,6 +18,54 @@ body {
     background-size: cover;
 }
 
+
+.box_orange {
+  background-color: black;
+  width: 390px;
+  float:right;
+  margin-top: -120px;
+  color: transparent;
+  font-size: 2px;
+    opacity: 30%;
+ 
+ 
+}
+
+  
+}
+.nav_container {
+  position: absolute;
+  width: auto;
+}
+
+/* The navbar */
+.topnav {
+  overflow: hidden;
+  text-align: right;
+    
+}
+
+/* Navbar links */
+.topnav a {
+  float: right;
+  padding: 15px;
+  color: black; 
+  margin-top: 60px;
+  margin-bottom: 60px;
+  font-size: 17px;
+  text-decoration: none;
+  font-family: 'Noto Sans JP', sans-serif;
+ 
+}
+
+.topnav a:hover {
+  color: lightgray;
+}
+
+.nav_abstand_rand {
+  margin-right: 70px;
+}
+
 .portrait {
     max-width: 100%;
     min-width: 500px;
@@ -94,7 +142,7 @@ img {
     text-decoration: none;
 }
 .sm_link a:hover {
-    color: royalblue;
+    color: #BDCCCA;
     text-decoration: none;
 }
 
