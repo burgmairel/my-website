@@ -142,6 +142,12 @@ background: linear-gradient(0deg, rgba(255,255,255,0.7) 19%, rgba(255,255,255,0.
                 color: #757575;
 
 }
+.zeile0 {
+               font-family: raleway;
+                font-size: 15px;
+                
+
+}
 
 table, th, td {
   border:px solid black;
@@ -225,4 +231,59 @@ background: linear-gradient(0deg, rgba(168,205,200,1) 19%, rgba(0,0,0,0) 100%);
 .sm_link a:hover {
     color:#9ffcc0;
     text-decoration: none;
+}
+
+
+.flip-card {
+  background-color: transparent;
+  width: 230px;
+  height: 50px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #A8CDC8;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+  
+}
+
+
+.aboutme {
+     font-family: raleway;
+                font-size: 40px;
+    color: black;
+}
+
+.bild {
+    width: 100%;
+    margin-top: -150px;
+    border-radius: 25px;
 }
