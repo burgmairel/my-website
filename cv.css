@@ -138,7 +138,7 @@ background: linear-gradient(0deg, rgba(255,255,255,0.7) 19%, rgba(255,255,255,0.
 
 .zeile {
                font-family: raleway;
-                font-size: 15px;
+                font-size: 19px;
                 color: #757575;
 
 }
@@ -288,7 +288,7 @@ background: linear-gradient(0deg, rgba(168,205,200,1) 19%, rgba(0,0,0,0) 100%);
     border-radius: 25px;
 }
 .bild {
-    width: 100%;
+    width: 180%;
     margin-top: -150px;
     margin-left: 80px;
     border-radius: 25px;
