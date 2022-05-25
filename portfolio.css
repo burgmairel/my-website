@@ -1,7 +1,9 @@
 html, body {
-background: rgb(0,60,252);
-background: linear-gradient(127deg, rgba(0,60,252,0.12088585434173671) 12%, rgba(253,0,252,0.08167016806722693) 14%, rgba(0,103,254,0.19931722689075626) 16%, rgba(0,103,254,0.47102591036414565) 47%, rgba(0,103,254,0.5578606442577031) 62%, rgba(0,60,252,0.17130602240896353) 84%);
+
+background-color:#c6c1d6;
 }
+
+
 
 
 
@@ -12,23 +14,13 @@ background: linear-gradient(127deg, rgba(0,60,252,0.12088585434173671) 12%, rgba
   top:40px;
 }
 
-.box_orange {
-  background-color:white;
-  width: 490px;
-  float:right;
-  margin-top: 50px;
-margin-right: -500px;
-  color: transparent;
-  font-size: 2px;
-  opacity: 30%;
- 
- 
-}
+
 
 .nav_container {
   margin-right: 50px;
   width: auto;
     float: right;
+    margin-top: 50px;
 }
 
 /* The navbar */
@@ -79,81 +71,60 @@ margin-right: -500px;
 }
 
 
+.bildcontiner { 
+    align-content:flex-start;
+
+}
 
 
-.img_port {
-   width:600px;
-   
+
+.imagegrid{
+
+  display: block;
+  padding-top: 200px;
+  margin-bottom: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+    
+    
+}
+
+
+.column {
+  float:left;
+  width: 15vw;
+  padding: 5px;
+
+    
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  align-items: center;
+  clear: both;
+  display: table;
 }
 
 
 
 
-/* [1] The container */
-.img-hover-zoom {
 
-    overflow: hidden; /* [1.2] Hide the overflowing of child elements */
-    border-radius: 50%;
-    float:left;
-    margin-left: 500px;
-    margin-top: 30px;
-}
 
-/* [2] Transition property for smooth transformation of images */
-.img-hover-zoom img {
-    transition: transform .5s ease;
-}
 
-/* [3] Finally, transforming the image when container gets hovered */
-.img-hover-zoom:hover img {
-    transform: scale(1.5);
-}
 
-/* [1] The container */
-.img-hover-zoom02 {
-    overflow: hidden; /* [1.2] Hide the overflowing of child elements */
-    border-radius: 50%;
-    float:left;
-    margin-left: 300px;
-    margin-top: 30px;
-}
 
-/* [2] Transition property for smooth transformation of images */
-.img-hover-zoom02 img {
-    transition: transform 1.5s ease;
-}
 
-/* [3] Finally, transforming the image when container gets hovered */
-.img-hover-zoom02:hover img {
-    transform: scale(1.5);
 
-}
-/* [1] The container */
-.img-hover-zoom03 {
 
-    overflow: hidden; /* [1.2] Hide the overflowing of child elements */
-    border-radius: 50%;
-    float:left;
-    margin-left: 600px;
-    margin-top: 30px;
-}
 
-/* [2] Transition property for smooth transformation of images */
-.img-hover-zoom03 img {
-    transition: transform 1.5s ease;
-}
-
-/* [3] Finally, transforming the image when container gets hovered */
-.img-hover-zoom03:hover img {
-    transform: scale(1.5);
-
-}
 
 .footer_text {
     font-size: 23px;
     font-family:'Raleway', sans-serif;;
     
     padding-left: 100px;
+    padding-right: 500px;
     color: white;
 }
 

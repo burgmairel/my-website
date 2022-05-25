@@ -7,7 +7,7 @@ body {
 }
 .bg {
     /* The image used */
-    background-image: url("images/contact/oben.jpg");
+    background-image: url("images/contact/oben.png");
 
     /* Full height */
     height: 110%;
@@ -20,17 +20,7 @@ body {
 }
 
 
-.box_orange {
-  background-color: black;
-  width: 390px;
-  float:right;
-  margin-top: -120px;
-  color: transparent;
-  font-size: 2px;
-    opacity: 30%;
- 
- 
-}
+
 
   
 }
@@ -106,8 +96,9 @@ h1 {
 }
 .contact_daten {
     font-family: "Raleway", sans-serif;
-    font-size: 20px;
-    margin-top: 60px;
+    font-size: 30px;
+    margin-top: 400px;
+    margin-left: 300px;
 }
 .contact_ue {
     font-family: "Raleway", sans-serif;
@@ -143,7 +134,7 @@ img {
     text-decoration: none;
 }
 .sm_link a:hover {
-    color: #BDCCCA;
+    color: #8524ff;
     text-decoration: none;
 }
 

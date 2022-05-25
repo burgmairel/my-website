@@ -1,0 +1,205 @@
+html, body {
+width: 100%;
+background: linear-gradient(127deg, rgba(0,60,252,0.12088585434173671) 12%, rgba(253,0,252,0.08167016806722693) 14%, rgba(0,103,254,0.19931722689075626) 16%, rgba(0,103,254,0.47102591036414565) 47%, rgba(0,103,254,0.5578606442577031) 62%, rgba(0,60,252,0.17130602240896353) 84%);
+}
+
+
+
+.logo_img {
+  width:6%;
+  position:fixed;
+  left:40px;
+  top:40px;
+}
+
+
+/* The navbar */
+.topnav {
+  overflow: hidden;
+  text-align: right;
+ 
+    
+}
+
+/* Navbar links */
+.topnav a {
+  float: right;
+  padding: 15px;
+  color:black; 
+  margin-top: 60px;
+  margin-bottom: 60px;
+  font-size: 17px;
+  text-decoration: none;
+  font-family: 'Noto Sans JP', sans-serif;
+ 
+}
+
+.topnav a:hover {
+  color: lightgray;
+}
+
+.nav_abstand_rand {
+  margin-right: 90px;
+
+}
+
+.box{
+    backface-visibility: hidden;
+}
+.hr { 
+    width: 400px;
+    border-width: 2px;
+    opacity: 30%;
+    border-radius: 40px;
+    border-color: black;
+    float: right;
+    margin-top: -60px;
+    margin-right: 15px;
+}
+
+
+
+.back_home {
+    text-align: right;
+    margin-top: -20px;
+    margin-right: 200px;
+    padding-top: 60px;
+    
+}
+.back_home a {
+    color:darkgray;
+    font-size:30px;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+    position:fixed;
+    margin-top: -20px;
+    padding-top: 60px;
+}
+
+
+
+
+.img_port {
+   width:600px;
+   
+}
+
+
+
+
+/* [1] The container */
+.img-hover-zoom {
+
+    overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+    border-radius: 50%;
+    float:left;
+    margin-left: 500px;
+    margin-top: 30px;
+}
+
+/* [2] Transition property for smooth transformation of images */
+.img-hover-zoom img {
+    transition: transform .5s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.img-hover-zoom:hover img {
+    transform: scale(1.5);
+}
+
+/* [1] The container */
+.img-hover-zoom02 {
+    overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+    border-radius: 50%;
+    float:left;
+    margin-left: 300px;
+    margin-top: 30px;
+}
+
+/* [2] Transition property for smooth transformation of images */
+.img-hover-zoom02 img {
+    transition: transform 1.5s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.img-hover-zoom02:hover img {
+    transform: scale(1.5);
+
+}
+/* [1] The container */
+.img-hover-zoom03 {
+
+    overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+    border-radius: 50%;
+    float:left;
+    margin-left: 600px;
+    margin-top: 30px;
+}
+
+/* [2] Transition property for smooth transformation of images */
+.img-hover-zoom03 img {
+    transition: transform 1.5s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.img-hover-zoom03:hover img {
+    transform: scale(1.5);
+
+}
+
+.footer_text {
+    font-size: 23px;
+    font-family:'Raleway', sans-serif;;
+    
+    padding-left: 100px;
+    color: white;
+    padding-right: 600px;
+}
+
+.footer_designed {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 10px;
+    float: right;
+    margin-top: 104px;
+    padding-bottom: 30px;
+    padding-left:70px;
+   margin-right: -500px;
+    color:white;
+    
+}
+
+.contact_text {
+    font-size: 23px;
+}
+.col1 {
+    float:left; 
+    width:300px;
+    margin-top: 10px;
+    
+}
+
+.col2 {
+    float:left; 
+    width:00px; 
+    margin-left:30px;
+    margin-top: 10px;
+    font-size: 19px;
+    
+}
+
+ /*instagramlink*/
+.sm_link { 
+    font-family:'Raleway', sans-serif;
+    font-size: 19px;
+    
+}
+
+.sm_link a { 
+    color: white;
+    text-decoration: none;
+    
+}
+.sm_link a:hover {
+    color:#9ffcc0;
+    text-decoration: none;
+}
