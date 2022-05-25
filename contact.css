@@ -7,7 +7,7 @@ body {
 }
 .bg {
     /* The image used */
-    background-image: url("images/contact/oben.png");
+    background-image: url("images/contact/oben.jpg");
 
     /* Full height */
     height: 110%;
@@ -40,7 +40,7 @@ body {
 .topnav a {
   float: right;
   padding: 15px;
-  color: black; 
+  color: white; 
   margin-top: 60px;
   margin-bottom: 60px;
   font-size: 17px;
@@ -50,7 +50,7 @@ body {
 }
 
 .topnav a:hover {
-  color: #0e0320;
+  color:#0e0320;
 }
 
 .nav_abstand_rand {
@@ -112,6 +112,8 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top:-300px;
+    margin-left: 200px;
 }
 img {
     max-width: 500px;
